@@ -38,6 +38,10 @@ led.plotBarGraph(
 JoyCar.readAdc(),
 true
 )
+led.plotBarGraph(
+0,
+10
+)
 basic.forever(function () {
     if (mode == 0) {
         JoyCar.stop(StopIntensity.Intense)
