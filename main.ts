@@ -40,7 +40,7 @@ true
 )
 led.plotBarGraph(
 0,
-10
+20
 )
 basic.forever(function () {
     if (mode == 0) {
